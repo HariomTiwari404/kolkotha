@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f2a838; /* Set desired background color */
+    background-image: url('assets/back_bridge.png');
+    background-size: cover;
+    
+    background-position: center center;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    background-color: #0f1111 ;
+    color: white; 
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+
+.navbar {
+    position: relative; /* Ensure the navbar is above the background image */
+    z-index: 1;
+}
+
+
+.border{
+    border: 1.5px solid transparent;
+}
+
+.border:hover{
+    border: 1.5px solid white;
+}
+
+body{
+    background-color:#f2a838 ;
+    
+}
+.content {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.logo {
+    max-width: 100%;
+    height: auto;
+}
+
+.places-section {
+    background-color: transparent;
+    padding: 40px;
+    text-align: center;
+}
+
+.place {
+    display: inline-block;
+    margin: 10px;
+}
+
+.place img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.headings{
+    color: white;
+    background-color: black;
+}
